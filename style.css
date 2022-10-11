@@ -1,0 +1,488 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-color: #080808;
+} 
+
+.leftsection .twlogo a img
+{
+	height: 30px;
+	margin-top: 30px;
+	margin-left: 60px;
+	padding: 10px;
+	margin-bottom: 30px;
+}
+.leftsection .twlogo a img:hover
+{
+	border-radius: 20px;
+	background-color: #181818;
+	transition-duration: 0.5s;
+}
+
+
+.categories
+{
+	//background-color: red;
+	margin-left: 50px;
+	width: 240px;
+	height: 50px;
+	margin-bottom: 10px;
+}
+
+.categories:hover
+{
+	background-color: #181818;
+	margin-left: 50px;
+	width: 240px;
+	height: 50px;
+	border-radius: 70px;
+	transition-duration: 0.5s;
+}
+
+.categories a
+{
+	text-decoration: none;
+	font-size: 20px;
+	color: #fff;
+	margin-left: 20px;
+	padding-right: 60px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.categories a img
+{
+	height: 30px;
+	margin-top: 10px;
+	margin-right: 20px;
+	margin-bottom: -9px;
+
+}
+
+.tweet
+{
+	margin-left: 50px;
+	width: 240px;
+	height: 50px;
+	text-align: center;
+}
+
+/*.tweet:hover
+{
+	background-color: red;
+	width: 240px;
+	height: 50px;
+	margin-left: 50px;
+}*/
+
+/*img background-color: green;*/
+
+.tweet a
+{
+	text-decoration: none;
+	font-size: 20px;
+	color: #fff;
+	background-color: #1A8CD8;
+	padding-top: 10px;
+	padding-right: 95px;
+	padding-left: 90px;
+	padding-bottom: 10px;
+	border-radius: 70px;
+}
+
+.tweet a:hover
+{
+	background-color: #1AAAD8;
+	
+}
+
+.profile
+{
+	margin-left: 50px;
+	width: 240px;
+	height: 50px;
+	//background-color: red;
+}
+.profile:hover
+{
+	margin-left: 50px;
+	width: 240px;
+	height: 50px;
+	background-color: #181818;
+	border-radius: 70px;
+	transition-duration: 0.5s;
+}
+.profile a
+{
+	text-decoration: none;
+	color: #fff;
+}
+
+.profile a img
+{
+	height: 40px;
+	padding-top: 5px;
+	padding-left: 20px;
+}
+.profile h3
+{
+	margin-top: -45px;
+	margin-left: 80px;
+}
+.profile p
+{
+	margin-left: 80px;
+}
+
+.midsection
+{
+	//background-color: #fff;
+	//height: 50em;
+	width: 40em;
+	margin-left: 400px;
+	margin-top: -670px;
+	border-left: 2px solid white;
+	border-right: 2px solid white;
+}
+
+.midsection .home a
+{
+	position: fixed;
+	text-decoration: none;
+	font-size: 20px;
+	height: 30px;
+	color: #fff;
+	padding-top: 10px;
+	padding-right: 28.08em;
+	background-color: #181818;
+	padding-left: 30px;
+}
+
+.midsection .postsection
+{
+	position: relative;
+	//background-color: red;
+	height: 15em;
+	width: 40em;
+	border-bottom: 1px solid #fff;
+}
+.midsection .postsection a 
+{
+	position: relative;
+}
+
+.midsection .postsection a img
+{
+	height: 60px;
+	margin-top: 5.5em;
+	margin-left: 2em;
+}
+
+.midsection .postsection input
+{
+	//background-color: black;
+	//border: none;
+	position: relative;
+	width: 20em;
+	height: 3em;
+	border-radius: 10px;
+	font-size: 20px;
+	margin-left: 2em;
+}
+
+.midsection .postsection .subCat
+{
+	//background-color: green;
+	width: 32em;
+	height: 4.15em;
+	margin-left: 8em;
+}
+
+.midsection .postsection .subCat img
+{
+	position: relative;
+	height: 30px;
+	margin-top: 1em;
+	margin-left: 1em;
+	padding: 5px;
+}
+.midsection .postsection .subCat img:hover
+{
+	background-color: #181818;
+	border-radius: 5px;
+	transition-duration: 0.5s;
+	}
+
+.postTweet
+{
+	position: relative;
+	float: right;
+	margin-top: 1.4em;
+}
+
+.postTweet a
+{
+	color: #fff;
+	text-decoration: none;
+	background-color: #1A8CD8;
+	font-size: 20px ;
+	margin-right: 2em;
+	padding: 10px;
+	border-radius: 20px;
+}
+.postTweet a:hover
+{
+	background-color: #1AAAD8;
+	}
+
+.midsection .afterpostsection
+{
+	position: relative;
+	//background-color: red;
+	height: 2.7em;
+	width: 40em;
+	border-bottom: 1px solid #fff;
+	text-align: center;
+	padding-top: 20px;
+}
+.midsection .afterpostsection a
+{
+	text-decoration: none;
+	font-size: 20px;
+	color: #fff;
+}
+.midsection .posts
+{
+	position: relative;
+	height: 25em;
+	width: 40em;
+	//background-color: red;
+	border-bottom: 1px solid #fff;
+}
+.midsection .posts .postUserName 
+{
+	text-decoration: none;
+	color: #ffa;
+	margin-left: 6em;
+	margin-top: -3.5em;
+	margin-bottom: 2em;
+}
+
+.midsection .posts .postUserName a
+{
+	text-decoration: none;
+	color: #fff;
+}
+.midsection .posts .postUserName a:hover
+{
+	text-decoration: underline;
+}
+.midsection .posts img
+{
+	height: 60px;
+	margin-left: 2em;
+	margin-top: 1em;
+}
+
+.midsection .posts:hover
+{
+	background-color: #181818;
+}
+.midsection .posts .postImage
+{
+	//background-color: red;
+	border: 1px solid #fff;
+	margin-left: 7em;
+	width: 26.5em;
+	border-radius: 2em;
+	margin-bottom: 0.5em;
+
+}
+
+.midsection .posts .postImage img
+{
+	height: 15em;
+	width: 22.5em;
+	margin-left: 2em;
+	padding-bottom: 0.8em;
+	border-radius: 2em;
+}
+
+.midsection .posts .userReaction
+{
+	//background-color: red;
+	width: 27em;
+	height: 2em;
+	margin-left: 7em;
+}
+.midsection .posts .userReaction a
+{
+	color: #fff;
+	text-decoration: none;
+	//background-color: green;
+	margin-right: 2em;
+	margin-left: 1.6em;
+	padding-top: 1.1em;
+	border-radius: 20px;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+
+}
+
+.midsection .posts .userReaction img
+{
+	height: 30px;
+	margin-top: 0em;
+	margin-left: 0px;
+
+}
+.midsection .posts .userReaction a:hover
+{
+	background-color: #080808;
+	border-radius: 20px;
+}
+
+.rightsection
+{
+	position: fixed;
+	//background-color: red;
+	height: 50em;
+	width: 25em;
+	margin-left: 65.3em;
+	margin-top: -94.3em;
+}
+
+.rightsection .search input
+{
+	margin-left: 5em;
+	width: 10em;
+	height: 2em;
+	border-radius: 50px;
+	font-size: 15px;
+	text-align: center;
+}
+
+.rightsection .happening
+{
+	height: 25em;
+	width: 15em;
+	background-color: #16181C;
+	margin-left: 2em;
+	margin-top: 3em;
+	border-radius: 2em;
+
+}
+
+.rightsection .happening h3
+{
+	color: #fff;
+	text-align: center;
+	margin-bottom: 0.5em;
+}
+
+.rightsection .happening .trending
+{
+	width: 14.5em;
+	height: 4em;
+	//background-color: green;
+	margin-left: 0.5em;
+	margin-bottom: 0.3em;
+}
+
+.rightsection .happening .trending a
+{
+	text-decoration: none;
+	color: #fff;
+}
+
+.rightsection .happening .trending:hover
+{
+	background-color: #1D1F23;
+}
+
+.rightsection .happening .trending a p
+{
+	color: #fba;
+}
+
+.rightsection .follow
+{
+	height: 8em;
+	width: 15em;
+	background-color: #16181C;
+	margin-left: 2em;
+	margin-top: 1em;
+	border-radius: 2em;
+
+}
+
+.rightsection .follow h3
+{
+	color: #fff;
+	margin-left: 2em;
+}
+
+.rightsection .follow .person
+{
+	width: 15em;
+	height: 3em;
+	border-radius: 5px;
+
+}
+.rightsection .follow .person:hover
+{
+	background-color: #1D1F23;
+	}
+
+
+.rightsection .follow .person a img
+{
+	height: 40px;
+	margin-top: 0.1em;
+	margin-left: 0.5em;
+
+}
+
+.rightsection .follow .person a
+{
+	text-decoration: none;
+	color: #fff;
+	font-size: 20px;
+}
+.rightsection .follow .person button
+{
+	float: right;
+	margin-top: 0.5em;
+	font-size: 15px;
+	margin-right: 0.5em;
+}
+
+.rightsection .about
+{
+	width: 15em;
+	height: 3em;
+	margin-left: 2em;
+	margin-top: 3em;
+	border-radius: 2em;
+}
+
+.rightsection .about a 
+{
+	text-decoration: none;
+	margin-right: 10px;
+	color: #fff;
+}
+
+.rightsection .about a:hover
+{
+	text-decoration: underline;
+}
+
+
+
+
+
+
